@@ -1,0 +1,50 @@
+---
+  hosts: api_servers
+  gather_facts: yes
+
+  vars:
+    env_path: "/home/ubuntu/mpp-new/mpp-mobile-backend_1/.env"
+    env_vars: {}
+
+  tasks:
+    - name: Stat env file
+      ansible.builtin.stat:
+        path: "{{ env_path }}"
+      register: env_stat
+
+    - name: Backup existing .env if present
+      ansible.builtin.copy:
+        remote_src: yes
+        src: "{{ env_path }}"
+        dest: "{{ env_path }}.bak_{{ ansible_date_time.epoch }}"
+      when: env_stat.stat.exists
+
+    - name: Ensure .env exists
+      ansible.builtin.file:
+        path: "{{ env_path }}"
+        state: touch
+        mode: '0644'
+
+    - name: Set env vars idempotently
+      ansible.builtin.lineinfile:
+        path: "{{ env_path }}"
+        create: yes
+        regexp: '^{{ item.key }}='
+        line: '{{ item.key }}={{ item.value }}'
+      loop: "{{ env_vars | dict2items }}"
+      when: env_vars | length > 0
+
+    - name: Show resulting values for changed keys
+      ansible.builtin.shell: |
+        set -o pipefail
+        grep -E "^({{ (env_vars.keys() | join('|')) | default('') }})=" {{ env_path }} || true
+      register: show_env
+      when: env_vars | length > 0
+
+    - name: Print verification
+      ansible.builtin.debug:
+        msg: |
+          Host: {{ inventory_hostname }}
+          Updated entries:
+          {{ show_env.stdout_lines | default([]) | join('\n') }}
+      when: env_vars | length > 0

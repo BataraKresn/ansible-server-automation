@@ -1,0 +1,16 @@
+---
+- name: Deploy on api-mpp and mpp-api02
+  hosts: api_servers
+  tasks:
+    - name: Ping both servers
+      command: ping -c 4 {{ inventory_hostname }}
+      register: ping_result
+      ignore_errors: yes
+
+    - name: Show ping result for the servers
+      debug:
+        msg: |
+          --------------------------------------------
+          Ping result for {{ inventory_hostname }}:
+          {{ ping_result.stdout }}
+          --------------------------------------------

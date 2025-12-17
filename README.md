@@ -113,6 +113,8 @@ Both servers are in group `api_servers` for easy targeting with `--limit`.
 
 ## Workflow Overview
 
+![Ansible Deployment Workflow](./Ansible.png)
+
 ```
 Laptop
   ├─ Buat/Update file_envs_changes.json (or pusher_vars.json)

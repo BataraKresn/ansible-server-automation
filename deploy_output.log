@@ -1,0 +1,136 @@
+[mpp-api02] 2025-07-07T06:40:04Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_134006.json
+
+[api-mpp] 2025-07-07T06:40:05Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_134006.json
+
+[api-mpp] 2025-07-07T06:53:17Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_135319.json
+
+[mpp-api02] 2025-07-07T06:53:17Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_135319.json
+
+[mpp-api02] 2025-07-07T07:20:12Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_142013.json
+
+[api-mpp] 2025-07-07T07:20:12Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_142013.json
+
+[api-mpp] 2025-07-07T07:42:07Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_144208.json
+
+[mpp-api02] 2025-07-07T07:42:07Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_144208.json
+
+[mpp-api02] 2025-07-07T08:05:00Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_150500.json
+
+[api-mpp] 2025-07-07T08:04:59Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_150500.json
+
+[api-mpp] 2025-07-07T08:17:07Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_151708.json
+
+[api-mpp] 2025-07-07T08:31:38Z >> ℹ️ No updates from Git. Skipping deployment.
+
+[mpp-api02] 2025-07-07T08:41:10Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[mpp-api02] 2025-07-07T08:47:58Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-07T08:47:58Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-07T08:47:28Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_154729.json
+
+[mpp-api02] 2025-07-07T08:47:29Z >> ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-07_154729.json
+
+[api-mpp] 2025-07-07T08:57:58Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-08T07:25:56Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[mpp-api02] 2025-07-08T07:25:55Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[mpp-api02] 2025-07-08T07:38:00Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-08T07:37:59Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-08T07:38:41Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[mpp-api02] 2025-07-08T07:38:41Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-08T07:44:03Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[mpp-api02] 2025-07-08T07:44:02Z >> ℹ️ No updates from Git. Skipping build & deployment.
+
+[api-mpp] 2025-07-23T08:22:59Z >> 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-23_152309.json
+
+[mpp-api02] 2025-07-23T08:23:07Z >> 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-07-23_152310.json
+
+[api-mpp] 2025-09-08T03:14:27Z >> 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-08_101429.json
+
+[api-mpp] 2025-09-08T03:34:46Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[mpp-api02] 2025-09-08T03:34:46Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[api-mpp] 2025-09-08T03:46:50Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[mpp-api02] 2025-09-08T03:46:50Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[mpp-api02] 2025-09-08T03:47:15Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[api-mpp] 2025-09-08T03:47:15Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[api-mpp] 2025-09-08T03:56:36Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[mpp-api02] 2025-09-08T03:56:36Z >> ℹ️ Git is up-to-date. Checking .env changes... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected. Skipping deployment.
+
+[api-mpp] 2025-09-15T04:14:37Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-15_111440.json
+
+[mpp-api02] 2025-09-15T04:14:37Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-09-15_111440.json
+
+[api-mpp] 2025-09-16T06:54:27Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-09-16_135429.json
+
+[mpp-api02] 2025-09-16T06:54:27Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T07:47:25Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-16_144728.json
+
+[mpp-api02] 2025-09-16T07:47:25Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T08:31:47Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-09-16T08:31:47Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T08:36:40Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-09-16T08:36:37Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T08:38:22Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-09-16T08:38:22Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T08:39:56Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-09-16T08:39:57Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-09-16T10:10:23Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-09-16_171024.json
+
+[mpp-api02] 2025-09-16T10:10:21Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-16_171024.json
+
+[api-mpp] 2025-09-25T03:21:15Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-25_102118.json
+
+[mpp-api02] 2025-09-25T03:21:15Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-09-25_102118.json
+
+[api-mpp] 2025-09-25T04:14:51Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-09-25T04:14:51Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. 🔁 Building anyway (env change / --force / previous failure). ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-25_111453.json
+
+[api-mpp] 2025-09-25T07:26:37Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-25_142638.json
+
+[mpp-api02] 2025-09-25T07:26:37Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-09-25_142638.json
+
+[mpp-api02] 2025-09-25T09:04:20Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-09-25_160422.json
+
+[mpp-api02] 2025-10-01T10:30:42Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-10-01_173045.json
+
+[api-mpp] 2025-10-01T10:30:43Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-10-01_173045.json
+
+[api-mpp] 2025-11-26T10:06:09Z :: RC=0 :: 📦 Git has new updates. Proceeding with build. ✅ Deployment complete! JSON log saved to: logs/deploy-2025-11-26_170610.json
+
+[mpp-api02] 2025-11-26T10:06:08Z :: RC=1 :: 📦 Git has new updates. Proceeding with build. ❌ Error in step: Build image without cache. Aborting. See logs/deploy-2025-11-26_170610.json
+
+[mpp-api02] 2025-12-16T09:46:13Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. 🔁 Building anyway (env change / --force / previous failure). ✅ Deployment complete! JSON log saved to: logs/deploy-2025-12-16_164615.json
+
+[api-mpp] 2025-12-16T09:46:13Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[mpp-api02] 2025-12-17T02:59:30Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+
+[api-mpp] 2025-12-17T02:59:30Z :: RC=0 :: ℹ️ Git is up-to-date. Checking env changes / flags... ✅ .env is unchanged. ✅ .env.production is unchanged. ✅ No changes detected and last run succeeded. Skipping deployment.
+

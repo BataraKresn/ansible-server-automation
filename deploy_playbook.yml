@@ -1,0 +1,79 @@
+---
+- name: Deploy on api-mpp and mpp-api02
+  hosts: api_servers
+  gather_facts: true
+  # become: yes   # aktifkan jika butuh sudo di host target
+
+  vars:
+    app_dir: "/home/ubuntu/mpp-new/mpp-mobile-backend_1"
+    log_path: "/home/ubuntu/ansible/deploy_output.log"
+
+  environment:
+    LC_ALL: "C.UTF-8"
+    LANG: "C.UTF-8"
+
+  pre_tasks:
+    - name: Coerce extra-var "force_build" to boolean (default false)
+      set_fact:
+        force_build_flag: "{{ (force_build | default(false)) | bool }}"
+
+    - name: Build deploy command string
+      set_fact:
+        deploy_cmd: >-
+          ./deploy.sh{{ ' --force' if force_build_flag else '' }}
+
+  tasks:
+    - name: Ensure log file exists on controller
+      delegate_to: localhost
+      run_once: true
+      file:
+        path: "{{ log_path }}"
+        state: touch
+        mode: '0644'
+
+    - block:
+        - name: Run deploy script
+          command: "{{ deploy_cmd }}"
+          args:
+            chdir: "{{ app_dir }}"
+          register: deploy_result
+          changed_when: true
+          failed_when: deploy_result.rc != 0
+
+        - name: Show last 200 lines
+          debug:
+            msg: |
+              --------------------------------------------
+              Host: {{ inventory_hostname }}
+              Time: {{ ansible_date_time.iso8601 }}
+              RC: {{ deploy_result.rc }}
+              Output (last 200 lines):
+              {{ (deploy_result.stdout_lines | default([]))[-200:] | join('\n') }}
+              --------------------------------------------
+
+      rescue:
+        - name: Show error output (deploy failed)
+          debug:
+            msg: |
+              --------------------------------------------
+              Host: {{ inventory_hostname }}
+              Time: {{ ansible_date_time.iso8601 }}
+              RC: {{ deploy_result.rc | default('N/A') }}
+              STDOUT (last 200):
+              {{ (deploy_result.stdout_lines | default([]))[-200:] | join('\n') }}
+              STDERR (last 200):
+              {{ (deploy_result.stderr_lines | default([]))[-200:] | join('\n') }}
+              --------------------------------------------
+
+        - name: Fail the play explicitly
+          fail:
+            msg: "deploy.sh failed with rc={{ deploy_result.rc | default('N/A') }}"
+
+      always:
+        - name: Append result to controller log
+          delegate_to: localhost
+          lineinfile:
+            path: "{{ log_path }}"
+            create: yes
+            line: |
+              [{{ inventory_hostname }}] {{ ansible_date_time.iso8601 }} :: RC={{ deploy_result.rc | default('N/A') }} :: {{ (deploy_result.stdout_lines | default([]))[-200:] | join(' ') }}
