@@ -1,0 +1,89 @@
+# Ansible
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Ansible artifacts
+*.retry
+.ansible/
+ansible.cfg.local
+
+# Secrets & sensitive data
+*.key
+*.pem
+*.pub
+.vault_pass
+vault_pass.txt
+secrets.yml
+secrets.json
+secrets/
+
+# Environment files (keep templates, ignore actual .env)
+.env.local
+.env.prod
+.env*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+.project
+.pydevproject
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.log
+logs/
+
+# Python
+venv/
+env/
+ENV/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# SSH keys
+*.pem
+*.key
+ssh_keys/
+private_keys/
+
+# Credentials & tokens
+.aws/
+.azure/
+.ssh/
+credentials/
+tokens/
+
+# Project specific
+deploy_output.log
+*.bak_*
+.env.bak_*
+
+# CI/CD
+.github/workflows/local/
+.gitlab-ci.local.yml
+
+# Optional local development
+local_vars.json
+local_vars.yml
+test_output/
